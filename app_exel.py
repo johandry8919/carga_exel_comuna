@@ -12,11 +12,11 @@ def obtener_ultimo_id_consejos(cursor):
 
 def post_registrar_comuna(data):
     conn = psycopg2.connect(
-        host="190.202.144.60", 
+        host="", 
         port="5432", 
-        dbname="db_chamba_produccion", 
+        dbname="", 
         user="postgres", 
-        password="chamba123"
+        password=""
     )
     cursor = conn.cursor()
 
